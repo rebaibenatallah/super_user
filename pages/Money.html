@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="../css/styles.css">
+
+        <title>Responsive sidebar menu - Bedimcode</title>
+    </head>
+    <body>
+        <!--=============== NAV ===============-->
+        <div class="nav" id="nav">
+            <nav class="nav__content">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+    
+    
+                <div class="nav__list">
+                    <a href="../index.html" class="nav__link ">
+                        <i class="ri-dashboard-line"></i>
+                        <span class="nav__name">Dashboard</span>
+                    </a>
+    
+                    <a href="../Money.html" class="nav__link active-link">
+                        <i class="ri-money-dollar-circle-line"></i>
+                        <span class="nav__name">Money</span>
+                    </a>
+    
+                    <a href="Stock.html" class="nav__link">
+                        <i class="ri-box-3-line"></i>
+                        <span class="nav__name">Stock</span>
+                    </a>
+    
+                    <a href="Remarque.html" class="nav__link">
+                        <i class="ri-ball-pen-line"></i>
+                        <span class="nav__name">Remarque</span>
+                    </a>
+    
+                    <a href="#" class="nav__link">
+                        <i class="ri-settings-3-line"></i>
+                        <span class="nav__name">Settings</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+        <!--=============== MAIN ===============-->
+        <main class="container section">
+            <div class="blocks">
+                <div class="block">
+                    <article class="article">    
+                        <h2>الدعم</h2>
+                        <table>
+                            <tr>
+                            <th>المصدر</th>
+                            <th>المبلغ</th>
+                            
+                            </tr>
+                            <tr>
+                            <td>المسعود</td>
+                            <td onclick="showdiv('re');">4076373.00</td>
+                            
+                            </tr>
+                            <tr>
+                            <td>الشاوي</td>
+                            <td onclick="showdiv('ch')">3320000.00</td>
+                            
+                            </tr>
+                            <tr>
+                            <td>ديون</td>
+                            <td>00.00</td>
+                            </tr>
+                            <tr>
+                                <td>TOTAL </td>
+                                <td>7396373.00</td>
+                            </tr>
+                        </table>
+                        
+                    </article>
+                </div>
+                <div class="block1" id="re">
+                    <article class="article">    
+                        <h2>المسعود</h2>
+                        <table>
+                            <tr>
+                              <th>الوصف</th>
+                              <th>المبلغ</th>
+                              <th>التاريخ</th>
+                            </tr>
+                            <tr>
+                              <td>سلعة</td>
+                              <td>1534295.00</td>
+                              <td>/</td>
+                            </tr>
+                            <tr>
+                                <td>ريبكس</td>
+                                <td>2493078.00</td>
+                                <td>12/02/2024</td>
+                            </tr>
+                            <tr>
+                              <td>مبلغ</td>
+                              <td>49000.00</td>
+                              <td>14/02/2024</td>
+                            </tr>
+                            <tr>
+                                <td>TOTAL </td>
+                                <td>4076373.00</td>
+                            </tr>
+                          </table>
+                        
+                    </article>
+                </div>
+                 <div class="block1" id="ch">
+                <article class="article">    
+                    <h2>الشاوي</h2>
+                    <table>
+                        <tr>
+                          <th>الوصف</th>
+                          <th>المبلغ</th>
+                          <th>التاريخ</th>
+                        </tr>
+                        <tr>
+                          <td>مبلغ</td>
+                          <td>1500000.00</td>
+                          <td>/</td>
+                        </tr>
+                        <tr>
+                            <td>سلعة w10</td>
+                            <td>120000.00</td>
+                            <td>/</td>
+                        </tr>
+                        <tr>
+                          <td>مبلغ</td>
+                          <td>500000.00</td>
+                          <td>10/02/2024</td>
+                        </tr>
+                        <tr>
+                            <td>مبلغ</td>
+                            <td>1200000.00</td>
+                            <td>/</td>
+                        </tr>
+                        <tr>
+                            <td>TOTAL </td>
+                            <td>33200000.00</td>
+                        </tr>
+                      </table>
+                    </article>
+                </div>
+            
+            </div>
+
+            <div class="blocks">
+                <div class="block">
+                <article class="article">    
+                    <h2>الفارسمو</h2>
+                    <table>
+                        <tr>
+                          <th>الشهر</th>
+                          <th>المبلغ</th>
+                          
+                        </tr>
+                        <tr>
+                          <td>جانفي</td>
+                          <td onclick="showdiv('re');">4076373.00</td>
+                        </tr>
+                        <tr>
+                          <td>فيفري</td>
+                          <td onclick="showdiv('ch')">3320000.00</td>
+                        </tr>
+                        <tr>
+                            <td>مارس</td>
+                            <td onclick="showdiv('re');">4076373.00</td>
+                          </tr>
+                          <tr>
+                            <td>أفريل</td>
+                            <td onclick="showdiv('ch')">3320000.00</td>
+                          </tr>
+                          <tr>
+                            <td>ماي</td>
+                            <td onclick="showdiv('re');">4076373.00</td>
+                          </tr>
+                          <tr>
+                            <td>جوان</td>
+                            <td onclick="showdiv('ch')">3320000.00</td>
+                          </tr>
+                          <tr>
+                            <td>جويليا</td>
+                            <td onclick="showdiv('re');">4076373.00</td>
+                          </tr>
+                          <tr>
+                            <td>أوت</td>
+                            <td onclick="showdiv('ch')">3320000.00</td>
+                          </tr>
+                          <tr>
+                            <td>سبتمبر</td>
+                            <td onclick="showdiv('re');">4076373.00</td>
+                          </tr>
+                          <tr>
+                            <td>أكتوبر</td>
+                            <td onclick="showdiv('ch')">3320000.00</td>
+                          </tr>
+                        <tr>
+                            <td>TOTAL </td>
+                            <td>7396373.00</td>
+                        </tr>
+                      </table>
+                    </article>
+                </div>
+            </div>
+        </main>         
+
+        <!--=============== MAIN JS ===============-->
+        <script src="../js/main.js"></script>
+    </body>
+</html>
