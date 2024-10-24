@@ -54,6 +54,8 @@ a {
   margin-left: 1rem;
   margin-right: 1rem;
   background: var(--body-color);
+  margin-bottom: 5rem;
+  
 }
 
 .section {
