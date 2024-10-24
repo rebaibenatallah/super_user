@@ -203,7 +203,7 @@ a {
   box-shadow: 2px 0 24px var(--shadow-color);
   border-radius: 1rem;
   max-width: 30rem;
-  transition: all .14s;
+  transition: .4s;
 }
 h2{
   text-align: center;
@@ -239,7 +239,7 @@ tr:nth-child(even) {
   border-radius: 1rem;
   max-width: 30rem;
   display: none;
-  transition: all .4s;
+  transition: .4s;
   /* visibility: hidden; */
 }
 /* ======================================================== */
